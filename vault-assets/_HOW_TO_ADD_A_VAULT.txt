@@ -1,0 +1,15 @@
+ONLINEVAULT — ADD YOUR VAULT HERE
+
+1. Copy your Obsidian Markdown notes and attachments into this folder,
+   keeping whatever subfolders you like (.md files and images/PDFs/etc.).
+2. Generate the index either by opening pack.html from this site and
+   choosing this folder, or by running from the folder with index.html:
+
+       node tools/pack-vault.mjs --index
+
+   (On Windows: node tools\pack-vault.mjs --index)
+
+3. Reload the site. No npm install and no rebuild are needed.
+
+Both options write vault-assets/vault.json — the only file the viewer
+reads at runtime. Re-run it any time the vault changes.
